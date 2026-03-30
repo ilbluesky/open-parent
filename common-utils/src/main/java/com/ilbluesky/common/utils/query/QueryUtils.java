@@ -13,7 +13,8 @@ public abstract class QueryUtils {
     private QueryUtils() {}
 
     /**
-     * Convert the <b>obj</b> empty field to null. E.g: obj.a = "", obj.b = "foo". After executing <>blankToNull</>,
+     * Convert the <b>obj</b> empty field to null.
+     * E.g: obj.a = "", obj.b = "foo". After executing {@link #blankToNull(Object)},
      * the obj becomes obj.a = null, obj.b = "foo".
      * @param obj
      */
